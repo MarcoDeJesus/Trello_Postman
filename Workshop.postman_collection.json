@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "cf26f3fe-cdad-4781-bc22-9d382e461044",
+		"name": "Workshop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Boards",
+			"item": [
+				{
+					"name": "Get Board By ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.trello.com/1/boards/5d9d216eb3311c26a444c92f?key={{app-key}}&token={{auth-token}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"trello",
+								"com"
+							],
+							"path": [
+								"1",
+								"boards",
+								"5d9d216eb3311c26a444c92f"
+							],
+							"query": [
+								{
+									"key": "actions",
+									"value": "all",
+									"disabled": true
+								},
+								{
+									"key": "boardStars",
+									"value": "none",
+									"disabled": true
+								},
+								{
+									"key": "cards",
+									"value": "none",
+									"disabled": true
+								},
+								{
+									"key": "card_pluginData",
+									"value": "false",
+									"disabled": true
+								},
+								{
+									"key": "checklists",
+									"value": "none",
+									"disabled": true
+								},
+								{
+									"key": "customFields",
+									"value": "false",
+									"disabled": true
+								},
+								{
+									"key": "fields",
+									"value": "name%2Cdesc%2CdescData%2Cclosed%2CidOrganization%2Cpinned%2Curl%2CshortUrl%2Cprefs%2ClabelNames",
+									"disabled": true
+								},
+								{
+									"key": "lists",
+									"value": "open",
+									"disabled": true
+								},
+								{
+									"key": "members",
+									"value": "none",
+									"disabled": true
+								},
+								{
+									"key": "memberships",
+									"value": "none",
+									"disabled": true
+								},
+								{
+									"key": "membersInvited",
+									"value": "none",
+									"disabled": true
+								},
+								{
+									"key": "membersInvited_fields",
+									"value": "all",
+									"disabled": true
+								},
+								{
+									"key": "pluginData",
+									"value": "false",
+									"disabled": true
+								},
+								{
+									"key": "organization",
+									"value": "false",
+									"disabled": true
+								},
+								{
+									"key": "organization_pluginData",
+									"value": "false",
+									"disabled": true
+								},
+								{
+									"key": "myPrefs",
+									"value": "false",
+									"disabled": true
+								},
+								{
+									"key": "tags",
+									"value": "false",
+									"disabled": true
+								},
+								{
+									"key": "key",
+									"value": "{{app-key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{auth-token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
